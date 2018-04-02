@@ -1,0 +1,29 @@
+html, body {
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+}
+
+body {
+  display: flex;
+}
+
+aside.cat-list {
+  width: 20%;
+  border: 1px solid salmon;
+}
+
+main.cat-wrapper {
+  width: 80%;
+  border: 1px solid rebeccapurple;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+main.cat-wrapper img {
+  max-width: 500px;
+}
